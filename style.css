@@ -4,6 +4,10 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+/********************************************/
+/**** header ****/
+/********************************************/
+
 header {
     background: url("./assets/images/banner.png");
     background-repeat:no-repeat;
@@ -127,9 +131,76 @@ ul {
     display: inline-block;
     font-family: 'Roboto Regular', Arial;
     font-size: 15px;
-    width: 120px;
+    width: 100px;
     margin-top: 20px;
 }
+
+
+/********************************************/
+/**** activity bar ****/
+/********************************************/
+.activity-bar{
+    background: linear-gradient(90deg,#429321, #b4ec51);
+    height: 260px;
+}
+
+.activity-bar div {
+    /* margin: 0px 25px 0px 25px; */
+}
+
+.function-object {
+    /* justify-content: center;
+    align-items: center; */
+    height: 160px;
+    width: 200px;
+}
+
+.main-circle {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    color:white;
+    border: 1px solid white;
+    border-width: 2px;
+    font-size: 33px;
+    padding: 33px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.index-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color:white;
+    border: 1px solid white;
+    border-width: 2px;
+    padding: 4px;
+    z-index: 1;
+    margin-top: -22px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(124, 179, 66);
+    font-family: 'Roboto-Regular', Arial;
+    font-size: 23px;
+}
+
+.function-name span {
+    color: white;
+    font-family: 'Roboto-Regular', Arial;
+    position: absolute;
+    width: 200px;
+    margin-top: 10px;               
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: pre-line
+}
+
+/********************************************/
+/**** footer ****/
+/********************************************/
 
 footer {
     background: rgb(57, 71, 78);
