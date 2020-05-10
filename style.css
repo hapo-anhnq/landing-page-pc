@@ -135,6 +135,102 @@ ul {
     margin-top: 20px;
 }
 
+/********************************************/
+/**** details section ****/
+/********************************************/
+
+.detail-section {
+    height: 500px;
+}
+
+.detail-section div {
+    width: 500px;
+}
+
+.section-description {
+    height: 315.35px
+}
+
+.des-img {
+    height: 315.35px;
+    width: 471.75px;
+}
+
+.section-title {
+    font-family: 'Roboto Light', Arial;
+    color: rgb(68, 68, 68);
+    font-size: 41px;
+    margin-top: -4px;
+}
+
+.title-icon {
+    font-size: 28px;
+}
+
+.section-description p { 
+    color: rgb(40, 50, 56);
+    font-family: 'Roboto Regular', Arial;
+    text-align: justify;
+
+}
+
+.section-intro-text {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.description-text {
+    font-size: 11px;
+    margin-top: 25px;
+    width: 485px;
+    line-height: 22px;
+}
+
+.section-button {
+    margin-top: 10px;
+}
+
+.project-section-img {
+    padding-left: 30px;
+}
+
+.today-i-learn {
+    box-shadow: 0 10pt 10pt 0 rgba(0, 0, 0, 0.1);
+}
+
+.customer-section {
+    box-shadow: 0pt 0pt 10pt 10pt rgba(0, 0, 0, 0.1);
+}
+
+.content-container {
+    display: flex;
+}
+
+.content-text p{
+    color: rgb(40, 50, 56);
+    font-family: 'Roboto Regular', Arial;
+    text-align: justify;
+    font-size: 11px;
+    line-height: 21px;
+    width: 450px;
+}
+
+div.content-icon {
+    color: #8bc34a;
+    width: 30px;
+    overflow: auto;
+    margin-top: 15px;
+}
+
+.customer-section-title {
+    margin-top: -20px;
+}
+
+.members-img {
+    height: 85%;
+    width: 85%;
+    margin-left: 20px;
+}
 
 /********************************************/
 /**** activity bar ****/
@@ -152,7 +248,7 @@ ul {
     /* justify-content: center;
     align-items: center; */
     height: 160px;
-    width: 200px;
+    width: 230px;
 }
 
 .main-circle {
@@ -198,6 +294,99 @@ ul {
     white-space: pre-line
 }
 
+
+/********************************************/
+/**** customer list ****/
+/********************************************/
+.customer-row {
+    background: url("./assets/images/rectangle3.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 460px;
+}
+
+.customer-row-title {
+    font-family: 'Roboto Light', Arial;
+    font-size: 37px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.avatar-row {
+    margin-top: 35px;
+}
+
+.avatar-row div {
+    text-align: center;
+    width: 130px;
+}
+
+.customer-avatar {
+    height: 70px;
+    width: 70px;
+}
+
+.customer-info {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto-Regular', Arial;
+}
+
+.customer-name {
+    font-size:11px;
+}
+
+.customer-role {
+    font-size: 8px;
+    margin-top: -10px;
+}
+
+.customer-row-pagination {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.customer-row-pagination span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: inline-block;
+    margin: 0px 7px 0px 7px; 
+}
+
+.page-circle-light {
+    background-color: rgb(216, 216, 216);
+}
+
+.ti-quote-left,
+.ti-quote-right {
+    color: white;
+    opacity: 40%;
+    font-size: 400%;
+}
+
+.ti-quote-right {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.ti-quote-left {
+    margin-top: -100px;
+    margin-right: 20px; 
+}
+
+.customer-row-quote p {
+    text-align: justify;
+    width: 620px;
+    color: white;
+    font-family: 'Roboto Light', Arial;
+    font-size: 15px;
+}
+
+
+
 /********************************************/
 /**** footer ****/
 /********************************************/
@@ -208,13 +397,13 @@ footer {
     background-size: cover;
     height: 190px;
     box-shadow: 0 15pt 15pt 0 rgba(0, 0, 0, 0.1);
-    padding-left: 55px;
+    padding-left: -10px;
 }
 
 
 .footer-container div {
     font-family: 'Roboto Medium', Arial;
-    width: 150px;
+    width: 170px;
 }
 
 .footer-logo-image {
